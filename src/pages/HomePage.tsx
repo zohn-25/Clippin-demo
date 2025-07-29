@@ -257,7 +257,7 @@ const HomePage = () => {
               </Button>
             </Link>
             <Link to="/login">
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
+              <Button variant="outline" size="lg" className="border-white text-primary hover:bg-white hover:text-primary">
                 Join as Creator
               </Button>
             </Link>

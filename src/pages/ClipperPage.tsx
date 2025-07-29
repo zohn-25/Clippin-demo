@@ -180,7 +180,7 @@ const ClipperPage = () => {
                   </div>
                 </DialogContent>
               </Dialog>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
+              <Button variant="outline" size="lg" className="border-white text-primary hover:bg-white hover:text-primary">
                 Learn How It Works
               </Button>
             </div>
