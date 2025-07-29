@@ -67,7 +67,7 @@ const LoginPage = () => {
               Welcome Back
             </CardTitle>
             <p className="text-muted-foreground">
-              Sign in to your CreatorConnect account
+              Sign in to your LoopMedia account
             </p>
           </CardHeader>
 

@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-primary to-accent p-2 rounded-lg">
                 <Zap className="h-6 w-6 text-white" />
               </div>
-              <span className="font-bold text-xl text-foreground">CreatorConnect</span>
+              <span className="font-bold text-xl text-foreground">LoopMedia</span>
             </div>
             <p className="text-muted-foreground text-sm">
               Connecting businesses with talented content creators for impactful collaborations.
