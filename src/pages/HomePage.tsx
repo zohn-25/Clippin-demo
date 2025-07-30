@@ -56,7 +56,7 @@ const HomePage = () => {
       name: "Alex Chen",
       role: "Content Creator",
       company: "250K Followers",
-      content: "I've earned over $15,000 through the platform. The payment system is transparent and reliable.",
+      content: "I've earned over ₹15,000 through the platform. The payment system is transparent and reliable.",
       rating: 5
     },
     {
