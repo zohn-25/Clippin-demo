@@ -134,7 +134,7 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Why Choose CreatorConnect?
+              Why Choose Clippin?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We make it easy for businesses and creators to collaborate and succeed together
