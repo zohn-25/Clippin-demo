@@ -7,7 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Badge } from '@/components/ui/badge';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import { Video, DollarSign, TrendingUp, Eye, Upload, Calendar, MapPin, Users, ArrowUpRight } from 'lucide-react';
+import { Video, IndianRupee , TrendingUp, Eye, Upload, Calendar, MapPin, Users, ArrowUpRight } from 'lucide-react';
 import { toast } from '@/hooks/use-toast';
 
 const CreatorDashboard = () => {
@@ -21,7 +21,7 @@ const CreatorDashboard = () => {
   const stats = [
     { title: 'Videos Submitted', value: '24', change: '+3', icon: <Video className="h-5 w-5" /> },
     { title: 'Total Views', value: '1.2M', change: '+15%', icon: <Eye className="h-5 w-5" /> },
-    { title: 'Total Earnings', value: '₹3,450', change: '+₹420', icon: <DollarSign className="h-5 w-5" /> },
+    { title: 'Total Earnings', value: '₹3,450', change: '+₹420', icon: <IndianRupee className="h-5 w-5" /> },
     { title: 'Success Rate', value: '85%', change: '+5%', icon: <TrendingUp className="h-5 w-5" /> },
   ];
 
@@ -231,7 +231,7 @@ const CreatorDashboard = () => {
                       <p className="text-sm text-muted-foreground mb-3">{ad.requirements}</p>
                       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm text-muted-foreground mb-3">
                         <div className="flex items-center gap-1">
-                          <DollarSign className="h-4 w-4" />
+                          <IndianRupee className="h-4 w-4" />
                           {ad.budget}
                         </div>
                         <div className="flex items-center gap-1">
@@ -263,7 +263,7 @@ const CreatorDashboard = () => {
             <Card className="border-0 shadow-md bg-gradient-to-br from-primary/5 to-accent/5">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <DollarSign className="h-5 w-5" />
+                  <IndianRupee className="h-5 w-5" />
                   Earnings Overview
                 </CardTitle>
               </CardHeader>
