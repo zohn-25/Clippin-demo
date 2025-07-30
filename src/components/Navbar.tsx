@@ -25,7 +25,7 @@ const Navbar = () => {
             <div className="bg-gradient-to-r from-primary to-accent p-2 rounded-lg">
               <Zap className="h-6 w-6 text-white" />
             </div>
-            <span className="font-bold text-xl text-foreground">LoopMedia</span>
+            <span className="font-bold text-xl text-foreground">Clippin</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-primary to-accent p-2 rounded-lg">
                 <Zap className="h-6 w-6 text-white" />
               </div>
-              <span className="font-bold text-xl text-foreground">LoopMedia</span>
+              <span className="font-bold text-xl text-foreground">Clippin</span>
             </div>
             <p className="text-muted-foreground text-sm">
               Connecting businesses with talented content creators for impactful collaborations.
@@ -69,7 +69,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 CreatorConnect. All rights reserved.
+            © 2024 Clippin. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
