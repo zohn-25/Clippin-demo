@@ -28,7 +28,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // Add this line for GitHub Pages
-  base: "/creator-connect-demo/",   // <-- Yeh zaruri hai (repo ka naam)
+  base: "/Clippin-demo/",   // <-- Yeh zaruri hai (repo ka naam)
 
   server: {
     host: true,

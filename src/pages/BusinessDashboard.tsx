@@ -25,7 +25,7 @@ const BusinessDashboard = () => {
     { title: 'Total Views', value: '2.4M', change: '+12%', icon: <Eye className="h-5 w-5" /> },
     { title: 'Active Campaigns', value: '8', change: '+2', icon: <TrendingUp className="h-5 w-5" /> },
     { title: 'Total Creators', value: '156', change: '+23', icon: <Users className="h-5 w-5" /> },
-    { title: 'Amount Spent', value: '$12,400', change: '-5%', icon: <DollarSign className="h-5 w-5" /> },
+    { title: 'Amount Spent', value: '₹12,400', change: '-5%', icon: <DollarSign className="h-5 w-5" /> },
   ];
 
   const myAds = [
@@ -33,7 +33,7 @@ const BusinessDashboard = () => {
       id: 1,
       title: 'Summer Fashion Collection',
       platform: 'Instagram',
-      budget: '$2,000',
+      budget: '₹2,000',
       status: 'Active',
       applications: 12,
       submitted: 5
@@ -42,7 +42,7 @@ const BusinessDashboard = () => {
       id: 2,
       title: 'Tech Product Review',
       platform: 'YouTube',
-      budget: '$3,500',
+      budget: '₹3,500',
       status: 'Active',
       applications: 8,
       submitted: 3
@@ -51,7 +51,7 @@ const BusinessDashboard = () => {
       id: 3,
       title: 'Food Delivery App Promo',
       platform: 'TikTok',
-      budget: '$1,500',
+      budget: '₹1,500',
       status: 'Completed',
       applications: 15,
       submitted: 8
@@ -66,7 +66,7 @@ const BusinessDashboard = () => {
       views: '125K',
       engagement: '8.5%',
       status: 'Approved',
-      payment: '$450'
+      payment: '₹450'
     },
     {
       creator: 'Alex Chen',
@@ -89,10 +89,10 @@ const BusinessDashboard = () => {
   ];
 
   const transactions = [
-    { date: '2024-01-15', description: 'Campaign Payment - Summer Fashion', amount: '-$450', status: 'Completed' },
-    { date: '2024-01-14', description: 'Wallet Top-up', amount: '+$2,000', status: 'Completed' },
-    { date: '2024-01-12', description: 'Campaign Payment - Tech Review', amount: '-$320', status: 'Completed' },
-    { date: '2024-01-10', description: 'Refund - Cancelled Campaign', amount: '+$150', status: 'Completed' }
+    { date: '2024-01-15', description: 'Campaign Payment - Summer Fashion', amount: '-₹450', status: 'Completed' },
+    { date: '2024-01-14', description: 'Wallet Top-up', amount: '+₹2,000', status: 'Completed' },
+    { date: '2024-01-12', description: 'Campaign Payment - Tech Review', amount: '-₹320', status: 'Completed' },
+    { date: '2024-01-10', description: 'Refund - Cancelled Campaign', amount: '+₹150', status: 'Completed' }
   ];
 
   const handlePostAd = () => {
@@ -169,7 +169,7 @@ const BusinessDashboard = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label htmlFor="budget">Budget ($)</Label>
+                    <Label htmlFor="budget">Budget (₹)</Label>
                     <Input
                       id="budget"
                       placeholder="2000"
@@ -269,7 +269,7 @@ const BusinessDashboard = () => {
               <CardContent className="space-y-4">
                 <div className="text-center">
                   <p className="text-sm text-muted-foreground">Available Balance</p>
-                  <p className="text-3xl font-bold text-foreground">$8,450</p>
+                  <p className="text-3xl font-bold text-foreground">₹8,450</p>
                 </div>
                 <Button variant="gradient" className="w-full">
                   <Plus className="mr-2 h-4 w-4" />

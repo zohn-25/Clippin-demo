@@ -19,8 +19,8 @@ const ClipperPage = () => {
   const heroStats = [
     { label: 'Active Clippers', value: '2.3K+' },
     { label: 'Clips Created', value: '45K+' },
-    { label: 'Total Payouts', value: '$280K+' },
-    { label: 'Avg. Earnings', value: '$85/clip' }
+    { label: 'Total Payouts', value: '₹280K+' },
+    { label: 'Avg. Earnings', value: '₹85/clip' }
   ];
 
   const availableProjects = [
@@ -32,7 +32,7 @@ const ClipperPage = () => {
       duration: '25:30',
       uploaded: '2 days ago',
       requirements: 'Create 30-60 second highlight clips focusing on camera features',
-      paymentPerClip: '$50-120',
+      paymentPerClip: '₹50-120',
       clipsNeeded: 5,
       deadline: '3 days'
     },
@@ -44,7 +44,7 @@ const ClipperPage = () => {
       duration: '18:45',
       uploaded: '1 day ago',
       requirements: 'Short clips (15-30s) of the most interesting food reactions',
-      paymentPerClip: '$30-80',
+      paymentPerClip: '₹30-80',
       clipsNeeded: 8,
       deadline: '2 days'
     },
@@ -56,7 +56,7 @@ const ClipperPage = () => {
       duration: '32:15',
       uploaded: '4 hours ago',
       requirements: 'Exercise demonstration clips (45-90s) with motivational moments',
-      paymentPerClip: '$40-100',
+      paymentPerClip: '₹40-100',
       clipsNeeded: 6,
       deadline: '5 days'
     }
@@ -71,7 +71,7 @@ const ClipperPage = () => {
       status: 'Viral',
       views: '1.2M',
       engagement: '8.5%',
-      earnings: '$150'
+      earnings: '₹150'
     },
     {
       originalVideo: 'Street Food Challenge',
@@ -81,7 +81,7 @@ const ClipperPage = () => {
       status: 'Popular',
       views: '450K',
       engagement: '12.3%',
-      earnings: '$85'
+      earnings: '₹85'
     },
     {
       originalVideo: 'Gaming Setup Tour',
@@ -101,7 +101,7 @@ const ClipperPage = () => {
       status: 'Approved',
       views: '89K',
       engagement: '9.1%',
-      earnings: '$45'
+      earnings: '₹45'
     }
   ];
 
@@ -352,7 +352,7 @@ const ClipperPage = () => {
             <h2 className="text-2xl font-bold text-foreground">Ready to Start Earning?</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Join thousands of creators who are earning money by creating viral clips. 
-              The average clipper earns $85 per clip, with top performers making $200+ per viral clip.
+              The average clipper earns ₹85 per clip, with top performers making ₹200+ per viral clip.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="gradient" size="lg" onClick={() => setIsSubmittingClip(true)}>

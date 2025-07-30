@@ -21,7 +21,7 @@ const CreatorDashboard = () => {
   const stats = [
     { title: 'Videos Submitted', value: '24', change: '+3', icon: <Video className="h-5 w-5" /> },
     { title: 'Total Views', value: '1.2M', change: '+15%', icon: <Eye className="h-5 w-5" /> },
-    { title: 'Total Earnings', value: '$3,450', change: '+$420', icon: <DollarSign className="h-5 w-5" /> },
+    { title: 'Total Earnings', value: '₹3,450', change: '+₹420', icon: <DollarSign className="h-5 w-5" /> },
     { title: 'Success Rate', value: '85%', change: '+5%', icon: <TrendingUp className="h-5 w-5" /> },
   ];
 
@@ -31,7 +31,7 @@ const CreatorDashboard = () => {
       title: 'Fitness App Promotion',
       company: 'FitLife Pro',
       platform: 'Instagram',
-      budget: '$500-800',
+      budget: '₹500-800',
       deadline: '2024-02-15',
       requirements: 'Create a 30-second reel showcasing workout routines using our app',
       followers: '10K+'
@@ -41,7 +41,7 @@ const CreatorDashboard = () => {
       title: 'Coffee Brand Review',
       company: 'Brew Masters',
       platform: 'YouTube',
-      budget: '$1200-1800',
+      budget: '₹1200-1800',
       deadline: '2024-02-20',
       requirements: 'Honest review video (8-10 minutes) featuring our premium coffee collection',
       followers: '50K+'
@@ -51,7 +51,7 @@ const CreatorDashboard = () => {
       title: 'Fashion Haul',
       company: 'Urban Trends',
       platform: 'TikTok',
-      budget: '$300-500',
+      budget: '₹300-500',
       deadline: '2024-02-12',
       requirements: 'Try-on haul featuring our latest spring collection',
       followers: '5K+'
@@ -61,7 +61,7 @@ const CreatorDashboard = () => {
       title: 'Tech Product Unboxing',
       company: 'GadgetZone',
       platform: 'YouTube',
-      budget: '$800-1200',
+      budget: '₹800-1200',
       deadline: '2024-02-25',
       requirements: 'Unboxing and first impressions of our latest smartphone accessories',
       followers: '25K+'
@@ -74,7 +74,7 @@ const CreatorDashboard = () => {
       company: 'StyleHub',
       appliedDate: '2024-01-10',
       status: 'Accepted',
-      budget: '$450',
+      budget: '₹450',
       dueDate: '2024-01-20'
     },
     {
@@ -82,7 +82,7 @@ const CreatorDashboard = () => {
       company: 'GlowCare',
       appliedDate: '2024-01-12',
       status: 'Under Review',
-      budget: '$320',
+      budget: '₹320',
       dueDate: '2024-01-25'
     },
     {
@@ -90,7 +90,7 @@ const CreatorDashboard = () => {
       company: 'GameCorp',
       appliedDate: '2024-01-08',
       status: 'Rejected',
-      budget: '$600',
+      budget: '₹600',
       dueDate: '2024-01-18'
     },
     {
@@ -98,7 +98,7 @@ const CreatorDashboard = () => {
       company: 'QuickEats',
       appliedDate: '2024-01-14',
       status: 'Pending',
-      budget: '$280',
+      budget: '₹280',
       dueDate: '2024-01-30'
     }
   ];
@@ -270,14 +270,14 @@ const CreatorDashboard = () => {
               <CardContent className="space-y-4">
                 <div className="text-center">
                   <p className="text-sm text-muted-foreground">This Month</p>
-                  <p className="text-3xl font-bold text-foreground">$1,500</p>
+                  <p className="text-3xl font-bold text-foreground">₹1,500</p>
                   <p className="text-sm text-success">+23% from last month</p>
                 </div>
                 <div className="space-y-3">
                   {earningsData.map((data, index) => (
                     <div key={index} className="flex justify-between items-center">
                       <span className="text-sm text-muted-foreground">{data.month}</span>
-                      <span className="font-medium text-foreground">${data.earnings}</span>
+                      <span className="font-medium text-foreground">₹{data.earnings}</span>
                     </div>
                   ))}
                 </div>
