@@ -8,7 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { Badge } from '@/components/ui/badge';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-import { Plus, Eye, TrendingUp, Users, DollarSign, Wallet, ArrowUpRight, Calendar, MapPin } from 'lucide-react';
+import { Plus, Eye, TrendingUp, Users, IndianRupee, Wallet, ArrowUpRight, Calendar, MapPin } from 'lucide-react';
 import { toast } from '@/hooks/use-toast';
 
 const BusinessDashboard = () => {
@@ -25,7 +25,7 @@ const BusinessDashboard = () => {
     { title: 'Total Views', value: '2.4M', change: '+12%', icon: <Eye className="h-5 w-5" /> },
     { title: 'Active Campaigns', value: '8', change: '+2', icon: <TrendingUp className="h-5 w-5" /> },
     { title: 'Total Creators', value: '156', change: '+23', icon: <Users className="h-5 w-5" /> },
-    { title: 'Amount Spent', value: '₹12,400', change: '-5%', icon: <DollarSign className="h-5 w-5" /> },
+    { title: 'Amount Spent', value: '₹12,400', change: '-5%', icon: <IndianRupee className="h-5 w-5" /> },
   ];
 
   const myAds = [
@@ -244,7 +244,7 @@ const BusinessDashboard = () => {
                           {ad.platform}
                         </div>
                         <div className="flex items-center gap-1">
-                          <DollarSign className="h-4 w-4" />
+                          <IndianRupee className="h-4 w-4" />
                           {ad.budget}
                         </div>
                         <div>{ad.applications} Applications</div>
