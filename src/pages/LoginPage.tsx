@@ -67,7 +67,7 @@ const LoginPage = () => {
               Welcome Back
             </CardTitle>
             <p className="text-muted-foreground">
-              Sign in to your LoopMedia account
+              Sign in to your Clippin account
             </p>
           </CardHeader>
 
